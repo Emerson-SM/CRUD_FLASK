@@ -12,7 +12,7 @@ class User(db.Model):
 
     @property
     def password(self):
-        raise AttributeError('La contraseña no es un atributo legible.')
+        raise AttributeError('Password error.')
 
     @password.setter
     def password(self, password):
